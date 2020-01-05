@@ -1,3 +1,5 @@
+let num = process.argv[2];
+
 function largestPrimeFactor(number) {
   let i = 2;
   let max = 1;
@@ -11,3 +13,5 @@ function largestPrimeFactor(number) {
   }
   return max;
 }
+
+console.log(largestPrimeFactor(num));

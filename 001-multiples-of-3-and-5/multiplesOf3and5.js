@@ -1,3 +1,5 @@
+let num = process.argv[2];
+
 function multiplesOf3and5(number) {
   let sum = 0;
   for (let i = 1; i < number; i++) {
@@ -7,3 +9,5 @@ function multiplesOf3and5(number) {
   }
   return sum;
 }
+
+console.log(multiplesOf3and5(num));
